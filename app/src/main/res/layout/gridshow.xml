@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image1"
+        android:src="@drawable/eye"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:layout_below="@+id/image1"
+        android:text="Eye"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image2"
+        android:src="@drawable/eone"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title2"
+        android:layout_below="@+id/image2"
+        android:layout_toRightOf="@+id/title1"
+        android:text="Exams"
+        android:textSize="20dp"
+        android:layout_marginLeft="180dp"/>
+
+
+
+</RelativeLayout>
